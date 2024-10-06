@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="/qt/qml/demos/calqlatr/">
+    <file alias="Main.qml">C:/Qt/Examples/Qt-6.7.2/demos/calqlatr/Main.qml</file>
+    <file alias="content/Display.qml">C:/Qt/Examples/Qt-6.7.2/demos/calqlatr/content/Display.qml</file>
+    <file alias="content/NumberPad.qml">C:/Qt/Examples/Qt-6.7.2/demos/calqlatr/content/NumberPad.qml</file>
+    <file alias="content/CalculatorButton.qml">C:/Qt/Examples/Qt-6.7.2/demos/calqlatr/content/CalculatorButton.qml</file>
+    <file alias="content/BackspaceButton.qml">C:/Qt/Examples/Qt-6.7.2/demos/calqlatr/content/BackspaceButton.qml</file>
+    <file alias="content/calculator.js">C:/Qt/Examples/Qt-6.7.2/demos/calqlatr/content/calculator.js</file>
+    <file alias="content/images/backspace.svg">C:/Qt/Examples/Qt-6.7.2/demos/calqlatr/content/images/backspace.svg</file>
+    <file alias="content/images/backspace_fill.svg">C:/Qt/Examples/Qt-6.7.2/demos/calqlatr/content/images/backspace_fill.svg</file>
+  </qresource>
+</RCC>
+

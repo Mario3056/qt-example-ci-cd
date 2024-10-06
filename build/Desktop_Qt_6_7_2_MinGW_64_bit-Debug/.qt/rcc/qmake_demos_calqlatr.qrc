@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/demos/calqlatr">
+    <file alias="qmldir">C:/Qt/Examples/Qt-6.7.2/demos/calqlatr/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/demos/calqlatr/qmldir</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-cbefdae9cf800538152b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "calqlatr",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-9ea988bc1889f002f865.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-8fabd2310595bf67a3dc.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-167d5afd0af4d5c2ce73.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-3c63d692db1f51d07dea.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "calqlatrexample::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-calqlatrexample-Debug-d39d7a96cd82a217bb30.json",
+					"name" : "calqlatrexample",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "calqlatrexample_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-calqlatrexample_autogen-Debug-78d169ba46dda3f1e84e.json",
+					"name" : "calqlatrexample_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "calqlatrexample_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-calqlatrexample_autogen_timestamp_deps-Debug-99a9b789db14687fe79e.json",
+					"name" : "calqlatrexample_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "calqlatrexample_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-calqlatrexample_qmlimportscan-Debug-0e620696d2b2ebf6c4f3.json",
+					"name" : "calqlatrexample_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "calqlatrexample_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-calqlatrexample_qmllint-Debug-1b26814584c4b01c6eff.json",
+					"name" : "calqlatrexample_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "calqlatrexample_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-calqlatrexample_qmllint_json-Debug-5fdec1c5f601d6f45063.json",
+					"name" : "calqlatrexample_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "calqlatrexample_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-calqlatrexample_qmllint_module-Debug-c03cbf9c9e2238549f36.json",
+					"name" : "calqlatrexample_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "calqlatrexample_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-calqlatrexample_qmltyperegistration-Debug-86b57c3feccc8be19376.json",
+					"name" : "calqlatrexample_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "calqlatrexample_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-calqlatrexample_tooling-Debug-0765bea74a5db5f90e52.json",
+					"name" : "calqlatrexample_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Qt/Examples/Qt-6.7.2/demos/calqlatr/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug",
+		"source" : "C:/Qt/Examples/Qt-6.7.2/demos/calqlatr"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

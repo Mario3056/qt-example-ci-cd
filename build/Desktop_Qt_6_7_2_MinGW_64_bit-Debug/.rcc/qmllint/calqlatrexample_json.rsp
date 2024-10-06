@@ -1,0 +1,17 @@
+--bare
+-I
+C:/Qt/Examples/Qt-6.7.2/demos/calqlatr/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug
+-I
+C:/Qt/6.7.2/mingw_64/./qml
+--resource
+C:/Qt/Examples/Qt-6.7.2/demos/calqlatr/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qmake_demos_calqlatr.qrc
+--resource
+C:/Qt/Examples/Qt-6.7.2/demos/calqlatr/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/calqlatrexample_raw_qml_0.qrc
+C:/Qt/Examples/Qt-6.7.2/demos/calqlatr/Main.qml
+C:/Qt/Examples/Qt-6.7.2/demos/calqlatr/content/Display.qml
+C:/Qt/Examples/Qt-6.7.2/demos/calqlatr/content/NumberPad.qml
+C:/Qt/Examples/Qt-6.7.2/demos/calqlatr/content/CalculatorButton.qml
+C:/Qt/Examples/Qt-6.7.2/demos/calqlatr/content/BackspaceButton.qml
+C:/Qt/Examples/Qt-6.7.2/demos/calqlatr/content/calculator.js
+--json
+C:/Qt/Examples/Qt-6.7.2/demos/calqlatr/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/calqlatrexample_qmllint.json
