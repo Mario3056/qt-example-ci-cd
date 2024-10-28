@@ -5,8 +5,6 @@
 #include <QQmlApplicationEngine>
 #include <QQuickStyle>
 
-//Comment added to test
-
 int main(int argc, char *argv[])
 {
     QCoreApplication::setOrganizationName("QtProject");
