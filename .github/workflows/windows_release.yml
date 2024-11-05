@@ -21,7 +21,7 @@ env:
 
 jobs:
   build:
-    runs-on:  windows-latest
+    runs-on:  windows-2019
 
     steps:
       - name: (1) Checkout repo
@@ -75,7 +75,11 @@ jobs:
               qmake -r ${{ env.SOURCE_DIR }}\calqlatr.pro
               ${{ runner.temp }}\jom\jom -j2
               cd release
-              windeployqt --qmldir ${{ env.SOURCE_DIR }} calqlatr.exe --pdb --release
+              windeployqt --qmldir ${{ env.SOURCE_DIR }} calqlatr.exe --pdb --release --compiler-runtime
+              copy C:\Windows\System32\concrt140.dll . 
+              copy C:\Windows\System32\vccorlib140.dll .
+              copy C:\Windows\System32\msvcp140.dll .
+              copy C:\Windows\System32\vcruntime140.dll .
               
       - name: (9) Zip build
         working-directory: ${{ runner.temp }}
