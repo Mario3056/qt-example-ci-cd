@@ -16,7 +16,7 @@ defaults:
 
 env:
   SOURCE_DIR:   ${{ github.workspace }}
-  QT_VERSION:   6.5.2
+  QT_VERSION:   6.8.2
   ARTIFACT:     qt-calqlatr-build.zip
 
 jobs:
@@ -33,15 +33,16 @@ jobs:
         working-directory:  ${{ github.workspace }}
         run: |
           git fetch --all --tags -f
+          
       - name: (3) Install Qt
         uses: jurplel/install-qt-action@v2
         with:
           version:      ${{ env.QT_VERSION }}
           host:         windows
           target:       desktop
-          arch:         win64_msvc2019_64
+          arch:         win64_msvc2022_64
           dir:          ${{ runner.temp }}
-          modules:      qml quick quickcontrols2
+          modules:      qtbase qtdeclarative qtquickcontrols2
           setup-python: false
 
       - name: (4) Download JOM
