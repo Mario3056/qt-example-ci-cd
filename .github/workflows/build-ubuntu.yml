@@ -28,7 +28,6 @@ jobs:
         uses: jurplel/install-qt-action@v3
         with:
           version: ${{ env.QT_VERSION }}
-          modules: 'qml quick'
 
       - name: (3) Install build dependencies
         run: sudo apt update && sudo apt install -y build-essential libgl1-mesa-dev
