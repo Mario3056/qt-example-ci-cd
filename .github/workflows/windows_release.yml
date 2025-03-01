@@ -47,7 +47,6 @@ jobs:
           target:       desktop
           arch:         win64_msvc2022_64
           dir:          ${{ runner.temp }}
-          modules:      qtbase qtdeclarative qtquickcontrols2
           setup-python: false
 
       - name: (4) Download JOM
