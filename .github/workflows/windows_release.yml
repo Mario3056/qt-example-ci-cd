@@ -29,9 +29,6 @@ jobs:
         with:
           submodules: recursive
 
-      - name: (2.5) Install specific aqt version
-        run: python -m pip install aqtinstall==3.2.0
-
       - name: (2) Get all tags for correct version determination
         working-directory:  ${{ github.workspace }}
         run: |
@@ -48,7 +45,7 @@ jobs:
           setup-python: false
 
       - name: (4) Download JOM
-        uses: suisei-cn/actions-download-file@v1
+        uses: suisei-cn/actions-download-file@818d6b7dc8fe73f2f924b6241f2b1134ca1377d9
         with:
           url:    http://download.qt.io/official_releases/jom/jom.zip
           target: ${{ runner.temp }}\
