@@ -69,7 +69,7 @@ jobs:
       - name: (8) Build
         working-directory: ${{ runner.temp }}\build
         run:  |
-              qmake -r ${{ env.SOURCE_DIR }}\calqlatr.pro
+              qmake -r ${{ env.SOURCE_DIR }}\calqlatr.pro QMAKE_CXXFLAGS="-WX-"
               ${{ runner.temp }}\jom\jom -j2
               cd release
               windeployqt --qmldir ${{ env.SOURCE_DIR }} calqlatr.exe --pdb --release --compiler-runtime
